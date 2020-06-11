@@ -1,6 +1,6 @@
 .text-input {
   border:  #cacccd;
-  box-shadow: 0 6.5px 17px rgba(0,0,0,0.30), 0 5.5px 4px rgba(0,0,0,0.22);
+  // box-shadow: 0 6.5px 17px rgba(0,0,0,0.30), 0 5.5px 4px rgba(0,0,0,0.22);
   height: 50px;
   font-size: $font-size-large;
   font-weight: 300;
@@ -18,9 +18,11 @@
 
 
 .SingleDatePickerInput {
-  box-shadow: 0 6.5px 17px rgba(0,0,0,0.30), 0 5.5px 4px rgba(0,0,0,0.22);
+  border:  #cacccd;
+  // box-shadow: 0 6.5px 17px rgba(0,0,0,0.30), 0 5.5px 4px rgba(0,0,0,0.22);
 }
 
 .DateRangePickerInput {
-  box-shadow: 0 6.5px 17px rgba(0,0,0,0.30), 0 5.5px 4px rgba(0,0,0,0.22);
+  border:  #cacccd;
+  // box-shadow: 0 6.5px 17px rgba(0,0,0,0.30), 0 5.5px 4px rgba(0,0,0,0.22);
 }
