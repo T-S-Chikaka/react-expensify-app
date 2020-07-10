@@ -21,7 +21,7 @@ Backend:
 NodeJs, Express Framework Server, Webpack, Firebase Realtime DB + Authentication, UUID, Running on Heroku
 
 Testing:
-Dev process used JEST to develop and track testing throughout project tests include in respository
+Dev process used JEST to develop and track testing throughout project tests include in respository.
 
 
 
