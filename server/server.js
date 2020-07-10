@@ -6,10 +6,14 @@ const port = process.env.PORT || 3000;
 
 app.use(express.static(publicPath));
 
-app.get('*', (req, res) => {
+app.get('/app', (req, res) => {
   res.sendFile(path.join(publicPath, 'index.html'));
 });
 
+app.get('/info', (req, res) => {
+  res.sendFile(path.join(publicPath, 'info.html'))
+})
+
 app.listen(port, () => {
-  console.log('Server is up!');
+  console.log(`Server running on ${port}`);
 });
